@@ -1,20 +1,39 @@
-#**Project Overview**
+# QA-Manual_Automation_Portfolio
 
-I organized and executed a comprehensive testing strategy for a complex application, utilizing both manual and automation testing techniques. My approach included the creation of dedicated folders for manual testing and automation testing, with the automation folder further categorized into Cypress, Selenium, and Playwright projects.
+This repository showcases my skills in both manual and automation testing. It is organized into two main sections: Manual Testing and Automation Testing, with further subdivisions into specific tools and frameworks.
 
-#**Project Overview**
-I organized and executed a comprehensive testing strategy for a complex application, utilizing both manual and automation testing techniques. My approach included the creation of dedicated folders for manual testing and automation testing, with the automation folder further categorized into Cypress, Selenium, and Playwright projects.
+## Manual Testing
 
-**Manual Testing**
-In the manual folder, I documented all manual test activities.
+In the `Manual/` folder, you will find:
 
-**Automation Testing**
-The automation folder is organized into subfolders for Cypress, Selenium, and Playwright, each containing well-structured projects:
+- **Test Plans:** Detailed test plans outlining the scope, objectives, and approach for various testing activities.
+- **Test Cases:** Well-documented test cases covering functional, integration, regression, and exploratory testing scenarios.
 
-**Cypress**: Developed end-to-end tests using Cypress, focusing on web application components. The project utilizes the Page Object Model (POM) for maintainability and is integrated into the CI/CD pipeline for continuous testing.
-**Selenium**: Automated cross-browser tests with Selenium WebDriver, implementing parallel test execution with Selenium Grid. This setup ensured efficient testing across different browsers and environments.
-**Playwright**: Implemented Playwright for advanced cross-browser testing. The project is designed to run reliably across Chrome, Firefox, and WebKit, ensuring consistent performance across various platforms.
+## Automation Testing
 
-**Project Outcome**
-By organizing the testing efforts into dedicated folders, I ensured a clear and structured approach to both manual and automated testing. This organization not only improved efficiency but also made it easier to maintain and scale the testing process. The combination of thorough manual testing and robust automation led to high-quality software releases with minimal defects.
+The `Automation/` folder is divided into three subfolders, each demonstrating my expertise with a specific automation tool:
+
+- **Cypress:**  
+  Contains a project showcasing end-to-end testing using Cypress. The tests focus on web application components and are built using the Page Object Model (POM) for maintainability. The project is integrated into a CI/CD pipeline for continuous testing.
+
+- **Selenium:**  
+  Includes a Selenium project with automated cross-browser testing. The project utilizes Selenium WebDriver and Selenium Grid to execute tests in parallel, ensuring efficiency across different browsers and environments.
+
+- **Playwright:**  
+  Features a Playwright project designed for advanced cross-browser testing. The tests are configured to run reliably across Chrome, Firefox, and WebKit, ensuring consistent performance.
+
+## Project Outcome
+
+By organizing the testing efforts into dedicated folders, I have ensured a clear and structured approach to both manual and automated testing. This organization not only improves efficiency but also makes it easier to maintain and scale the testing process. The combination of thorough manual testing and robust automation has led to high-quality software releases with minimal defects.
+
+## How to Use This Repository
+
+- **Manual Testing:**  
+  Explore the `Manual/` folder to review test plans and test cases.
+  
+- **Automation Testing:**  
+  Navigate to the `Automation/` folder to view the projects created with Cypress, Selenium, and Playwright. Each project includes setup instructions and sample test scripts.
+
+
+This repository is a demonstration of my ability to design and execute comprehensive testing strategies using a variety of tools and techniques. Feel free to explore the projects and reach out if you have any questions.
 
