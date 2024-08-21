@@ -1,0 +1,304 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-want-login-the-application;valid-login-attempt",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Valid Login attempt",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175440999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Care validate page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668269699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters valid username \"qa+employee@carevalidate.com\" and password \"bLPgk5tr7D3ZqpXvV@aNKz\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41310399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-want-login-the-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I want login the Application",
+    "tags": [],
+    "uri": "src\\test\\features\\loginC.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "weight-loss-eligibility-intake-form-submission;submit-a-weight-loss-eligibility-intake-form-and-confirm-submission",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Submit a Weight Loss Eligibility Intake Form and confirm submission",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 148230399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on Care validate page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 817156498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user enters valid email \"qa+employee@carevalidate.com\" and password \"bLPgk5tr7D3ZqpXvV@aNKz\"",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 471197700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the Weight Loss Eligibility Intake Form page",
+            "match": {
+              "location": "src\\test\\steps\\newRequest.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8707948498
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "gender",
+                      "Female"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "age",
+                      "23"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "height",
+                      "5"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "weight",
+                      "54"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "conditions",
+                      "1,3"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "moreConditions",
+                      "2,6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "weightLossGoal",
+                      "Lose over 50 for good"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "pastInitiatives",
+                      "0,1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "test@gmail.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "phoneNumber",
+                      "234567898"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "address",
+                      "test address"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "test"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "state",
+                      "test"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "zipCode",
+                      "54323"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "translationOption",
+                      "No"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "filePath",
+                      "TestAttachment.png"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I fill in the form with the following data:",
+            "match": {
+              "location": "src\\test\\steps\\newRequest.steps.ts:15"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 34469907298,
+              "error_message": "page.click: Timeout 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('div.q-checkbox__label.q-anchor--skip:nth-child(2)')\u001b[22m\n\n    at NewRequestPage.fillForm (C:\\Users\\rubee\\OneDrive\\Desktop\\Web\\Playwright-20240107T075513Z-001\\Playwright\\src\\pages\\newRequestPage.ts:76:27)\n    at async World.<anonymous> (C:\\Users\\rubee\\OneDrive\\Desktop\\Web\\Playwright-20240107T075513Z-001\\Playwright\\src\\test\\steps\\newRequest.steps.ts:36:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I submit the form",
+            "match": {
+              "location": "src\\test\\steps\\newRequest.steps.ts:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should see a success message",
+            "match": {
+              "location": "src\\test\\steps\\newRequest.steps.ts:43"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the form submission date and time should be stored",
+            "match": {
+              "location": "src\\test\\steps\\newRequest.steps.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33583100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "weight-loss-eligibility-intake-form-submission",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Weight Loss Eligibility Intake Form Submission",
+    "tags": [],
+    "uri": "src\\test\\features\\newRequest.feature"
+  }
+]
